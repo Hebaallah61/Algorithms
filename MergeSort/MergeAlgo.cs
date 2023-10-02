@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace MergeSort
 {
+    /// <summary>
+    /// Complexity==> O(n log n)
+    /// </summary>
     public class MergeAlgo
     {
         /// <summary> --->MergeSort
