@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace Segregate_P_and_N_Nums
 {
     /// <summary>
-    /// 
+    ///  Segregate Positive and Negative Numbers by Merge Sort Algorithm 
+    ///  Complexity = O (n log n)
     /// </summary>
     public class Segregate_P_N
     {
@@ -19,7 +20,7 @@ namespace Segregate_P_and_N_Nums
         /// 5- Call yourself twice, one for the left portion, the other for the right portion 
         /// 6- Merge the two portions 
         /// </summary>
-        public static void MergeSort(List<int> unsorted, int start, int end)
+        public static void Segregate(List<int> unsorted, int start, int end)
         {
 
             List<int> arr1 = new();
@@ -27,8 +28,8 @@ namespace Segregate_P_and_N_Nums
             if (start < end)
             {
                 int midPoint = (start + end) / 2;
-                MergeSort(unsorted, start, midPoint);
-                MergeSort(unsorted, midPoint + 1, end);
+                Segregate(unsorted, start, midPoint);
+                Segregate(unsorted, midPoint + 1, end);
                 Merge(unsorted, midPoint, start, end);
             }
         }
