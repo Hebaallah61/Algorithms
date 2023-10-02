@@ -5,11 +5,11 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShapesAlgos", "ShapesAlgos", "{372E961C-560B-4B3A-B870-75CECAB61110}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{63F53B74-0F38-4A9A-BE51-6B46A7CAAB91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shapes", "Shapes\Shapes.csproj", "{63F53B74-0F38-4A9A-BE51-6B46A7CAAB91}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CorrelationAlgo", "CorrelationAlgo", "{A3B7F757-B08E-48E7-BE5E-ED227BD4123A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Correlation", "Correlation\Correlation.csproj", "{D3ED6980-E126-43B0-9E70-B336EFCA9791}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Correlation", "Correlation\Correlation.csproj", "{D3ED6980-E126-43B0-9E70-B336EFCA9791}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
