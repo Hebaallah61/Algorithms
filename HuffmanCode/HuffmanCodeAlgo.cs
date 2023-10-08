@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace HuffmanCode
 {
-    /// <summary>
+    /// <summary>  Complexity ===> O(n log n)
     /// using priority Queue[min_heap] for sorting by frequence (min frequence)
     /// 0- Huffman(C)
     /// 1- n|C|
