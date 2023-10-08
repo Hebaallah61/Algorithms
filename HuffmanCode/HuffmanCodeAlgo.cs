@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace HuffmanCode
 {
-    /// <summary>  Complexity ===> O(n log n)
+    /// <summary>  Complexity ===> O(n log n) according to priority queue 
     /// using priority Queue[min_heap] for sorting by frequence (min frequence)
     /// 0- Huffman(C)
     /// 1- n|C|
@@ -31,21 +31,21 @@ namespace HuffmanCode
         {
             Hashtable freq = new();
             int i;
-            for(i=0;i<message.Length;i++)
+            for(i=0;i<message.Length;i++) // n
             {
                 if (freq[message[i]]==null) freq[message[i]]=1;
                 else freq[message[i]] = (int)freq[message[i]]! + 1;
             }
 
-            foreach(char c in freq.Keys)
+            foreach(char c in freq.Keys) // n
             {
                 HeapNode heapNode = new(c, (int)freq[c]!);
-                minHeap.Enqueue(heapNode, (int)freq[c]!);
+                minHeap.Enqueue(heapNode, (int)freq[c]!); // n log n
             }
 
             HeapNode top, left, right;
             int newFreq;
-            while (minHeap.Count != 1)
+            while (minHeap.Count != 1) // n
             {
                 left = minHeap.Dequeue();
                 right = minHeap.Dequeue();
@@ -68,7 +68,7 @@ namespace HuffmanCode
 
         public static void PrintCodes(HuffmanCodeAlgo huffman)
         {
-            foreach(char c in huffman.codes.Keys)
+            foreach(char c in huffman.codes.Keys) // n
             {
                 Console.Write(c + " ");
                 Console.WriteLine(huffman.codes[c]);
