@@ -22,9 +22,6 @@ namespace MergeSort
         /// </summary>
         public static void MergeSort(List<int> unsorted, int start, int end)
         {
-            
-            List<int> arr1=new();
-            List<int> arr2=new();
             if (start < end)
             {
                 int midPoint=(start+end)/2;
