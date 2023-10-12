@@ -43,6 +43,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Knapsack", "Knapsack", "{8C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Knapsack", "Knapsack\Knapsack.csproj", "{BE136FCA-0D11-4816-800B-03C3D83697A0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamicProgramming", "DynamicProgramming", "{F97D9D06-233A-4050-9916-102FD5FE0F67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StageCoach", "StageCoach", "{AE5CA7F4-5B9C-4112-9B1D-01D3269E1BB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StageCoach", "StageCoach\StageCoach.csproj", "{6CE69FB9-A539-42AD-B854-2DEEFB89E34C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LongestCommonSubsequence", "LongestCommonSubsequence", "{486D9937-FD47-41BA-A50A-15C7036E4D61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonSubsequence", "LongestCommonSubsequence\LongestCommonSubsequence.csproj", "{B423A16E-93A6-4203-8884-8216EE7337A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Knapsack0_1", "Knapsack0_1", "{CE66BC85-26F9-4677-8F38-83F4F71EEA99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knapsack0_1", "Knapsack0_1\Knapsack0_1.csproj", "{A8CAA5AB-BBA6-4920-9F2B-E9B6F47CCD37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
