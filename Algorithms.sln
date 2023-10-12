@@ -37,11 +37,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActivitySelection", "Activi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HuffmanCode", "HuffmanCode", "{80D89433-08AE-4EB7-879F-CA3BC80041FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuffmanCode", "HuffmanCode\HuffmanCode.csproj", "{70B19E5C-1C92-4D89-8BF3-ABC75719E526}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuffmanCode", "HuffmanCode\HuffmanCode.csproj", "{70B19E5C-1C92-4D89-8BF3-ABC75719E526}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Knapsack", "Knapsack", "{8C5BAE12-B4ED-434D-933D-960CDBA4C683}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knapsack", "Knapsack\Knapsack.csproj", "{BE136FCA-0D11-4816-800B-03C3D83697A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Knapsack", "Knapsack\Knapsack.csproj", "{BE136FCA-0D11-4816-800B-03C3D83697A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
