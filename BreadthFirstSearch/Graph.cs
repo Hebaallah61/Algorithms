@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,6 +32,18 @@ namespace BreadthFirstSearch
                 Vertices[vertexIndexCurrent].VertexLink[i]=new Edge(Vertices[vertexIndexCurrent],Vertices[targets[i]]);
             }
         }
+        /// <summary>
+        /// Complexity==> O(V+E), where V is the number of vertices & E number of Edges 
+        /// Performs a Breadth-First Search (BFS) on the graph starting from the first vertex.
+        /// 1- Create an empty queue Q
+        /// 2- Mark Start vertex as visited and enqueue it into q
+        /// 3- while q is not empty do
+        ///   3.1- Dequeue a vertex V from q
+        ///   3.2- for each unvisited neighbor U of V do
+        ///      3.2.1- Enqueue U into q 
+        ///      3.2.2- Mark U as visited
+        ///      3.2.3- print
+        /// </summary>
         public void BFS()
         {
             int v=Vertices.Length; 
@@ -50,7 +65,6 @@ namespace BreadthFirstSearch
                     }
                 }
             }
-
         }
      }
 }
