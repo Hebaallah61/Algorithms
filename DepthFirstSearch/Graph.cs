@@ -34,7 +34,7 @@ namespace DepthFirstSearch
         }
         /// <summary>
         /// Complexity==> O(V+E), where V is the number of vertices & E number of Edges 
-        /// Performs a Depth-First Search (BFS) on the graph starting from the first vertex.
+        /// Performs a Depth-First Search (DFS) on the graph starting from the first vertex.
         /// 1- Call DFSRecursion(first vertix)
         /// 2- DFSRecursion:
         ///   2.1- Mark first vertix as visited

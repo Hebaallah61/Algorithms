@@ -75,6 +75,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DepthFirstSearch", "DepthFi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthFirstSearch", "DepthFirstSearch\DepthFirstSearch.csproj", "{412CF09B-02C6-47C3-AD4B-84C5CA3B7306}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dijkstra'sShortestPath", "Dijkstra'sShortestPath", "{66F87D79-3AE1-4135-83DB-280D61BB0B78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra'sShortestPath", "Dijkstra'sShortestPath\Dijkstra'sShortestPath.csproj", "{FA85DE33-220D-43A5-BDDB-3BBC0E838EA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -145,6 +149,10 @@ Global
 		{412CF09B-02C6-47C3-AD4B-84C5CA3B7306}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{412CF09B-02C6-47C3-AD4B-84C5CA3B7306}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{412CF09B-02C6-47C3-AD4B-84C5CA3B7306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA85DE33-220D-43A5-BDDB-3BBC0E838EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA85DE33-220D-43A5-BDDB-3BBC0E838EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA85DE33-220D-43A5-BDDB-3BBC0E838EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA85DE33-220D-43A5-BDDB-3BBC0E838EA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -180,6 +188,8 @@ Global
 		{20D8E432-737F-424B-AC35-97CB217AD073} = {896BF92D-F8BA-44EE-877E-4B6FE396D302}
 		{D19C9020-FB1F-4241-B8E3-6E96210CFEF0} = {3D4D7896-E0D0-4345-B0FC-F7F06322C0F1}
 		{412CF09B-02C6-47C3-AD4B-84C5CA3B7306} = {D19C9020-FB1F-4241-B8E3-6E96210CFEF0}
+		{66F87D79-3AE1-4135-83DB-280D61BB0B78} = {3D4D7896-E0D0-4345-B0FC-F7F06322C0F1}
+		{FA85DE33-220D-43A5-BDDB-3BBC0E838EA3} = {66F87D79-3AE1-4135-83DB-280D61BB0B78}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3E14C61-E24D-443B-9EE7-DB88215BDE5C}
